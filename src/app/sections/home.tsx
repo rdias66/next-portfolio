@@ -1,3 +1,7 @@
 export function Home() {
-  return <h1>This is Home</h1>
+  return (
+    <section id="Home">
+      <h1>This is home</h1>
+    </section>
+  )
 }

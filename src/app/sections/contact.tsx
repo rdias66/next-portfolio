@@ -1,3 +1,7 @@
 export function Contact() {
-  return <h1>This is Contact</h1>
+  return (
+    <section id="Contact">
+      <h1>This is contact</h1>
+    </section>
+  )
 }
