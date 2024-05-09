@@ -1,3 +1,5 @@
+import { Socials } from '@/app/components/socials'
+
 export function Header() {
   return (
     <nav
@@ -48,6 +50,7 @@ export function Header() {
             </a>
           </li>
         </ul>
+        <Socials />
       </div>
     </nav>
   )

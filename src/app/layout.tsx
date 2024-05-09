@@ -14,7 +14,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${poppins.variable} font-poppins`}>
-      <body>{children}</body>
+      <body>
+        <script src="https://kit.fontawesome.com/9edb9e3e09.js"></script>
+        {children}
+      </body>
     </html>
   )
 }
