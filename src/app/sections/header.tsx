@@ -1,4 +1,5 @@
-import { Socials } from '@/app/components/socials'
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
+import { Socials } from '@/components/ui/socials'
 
 export function Header() {
   return (
@@ -7,6 +8,7 @@ export function Header() {
       className="sticky flex top--2 w-full justify-around items-center h-20 bg-zinc-800 text-white hover:cursor-default shadow-soft-bottom shadow-zinc-600"
     >
       <div className="text-xl">Rodrigo Dias</div>
+
       <div>
         <ul className="flex gap-8 text-sm">
           <li>
@@ -49,8 +51,8 @@ export function Header() {
               Contato
             </a>
           </li>
+          <Socials />
         </ul>
-        <Socials />
       </div>
     </nav>
   )

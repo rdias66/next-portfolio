@@ -4,7 +4,7 @@ import { Skills } from '@/app/sections/skills'
 import { Experiences } from '@/app/sections/experiences'
 import { Contact } from '@/app/sections/contact'
 import { Header } from '@/app/sections/header'
-import { Socials } from './components/socials'
+import { Socials } from '../components/ui/socials'
 
 export default function App() {
   return (
@@ -16,7 +16,6 @@ export default function App() {
         <Skills />
         <Experiences />
         <Contact />
-        <Socials />
       </div>
     </div>
   )
