@@ -3,7 +3,7 @@ export function Socials() {
     <div className="w-fit flex gap-4">
       <a
         href="https://www.github.com/rdias66"
-        className=""
+        className="hover:text-zinc-500"
         target="_blank"
         rel="noreferrer"
       >
@@ -12,7 +12,7 @@ export function Socials() {
 
       <a
         href="https://www.linkedin.com/in/rodrigo-dias-45009a242/"
-        className=""
+        className="hover:text-zinc-500"
         target="_blank"
         rel="noreferrer"
       >
@@ -20,7 +20,7 @@ export function Socials() {
       </a>
       <a
         href="https://www.instagram.com/diasrodr"
-        className=""
+        className="hover:text-zinc-500"
         target="_blank"
         rel="noreferrer"
       >

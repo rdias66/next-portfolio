@@ -1,3 +1,4 @@
+import { Separator } from '@/components/ui/separator'
 import { Socials } from '@/components/ui/socials'
 
 export function Header() {
@@ -9,7 +10,7 @@ export function Header() {
       <div className="text-xl">Rodrigo Dias</div>
 
       <div>
-        <ul className="flex gap-8 text-sm">
+        <ul className="flex h-5 items-center space-x-4 text-sm">
           <li>
             <a
               href="#Home"
@@ -18,6 +19,7 @@ export function Header() {
               Home
             </a>
           </li>
+          <Separator orientation="vertical" />
           <li>
             <a
               href="#About"
@@ -26,6 +28,7 @@ export function Header() {
               Sobre
             </a>
           </li>
+          <Separator orientation="vertical" />
           <li>
             <a
               href="#Skills"
@@ -34,6 +37,7 @@ export function Header() {
               Proficiências
             </a>
           </li>
+          <Separator orientation="vertical" />
           <li>
             <a
               href="#Experiences"
@@ -42,6 +46,7 @@ export function Header() {
               Experiências
             </a>
           </li>
+          <Separator orientation="vertical" />
           <li>
             <a
               href="#Contact"
@@ -50,6 +55,7 @@ export function Header() {
               Contato
             </a>
           </li>
+          <Separator orientation="vertical" />
           <Socials />
         </ul>
       </div>
