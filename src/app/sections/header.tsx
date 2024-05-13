@@ -1,4 +1,3 @@
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { Socials } from '@/components/ui/socials'
 
 export function Header() {
