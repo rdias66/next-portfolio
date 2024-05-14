@@ -2,7 +2,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { Separator } from '@/components/ui/separator'
 import { Socials } from '@/components/ui/socials'
 
-export function Header() {
+export function Header({ LanguageTextData }: any) {
   return (
     <nav
       id="desktop-nav"
@@ -24,7 +24,7 @@ export function Header() {
               href="#Home"
               className="hover:underline hover:underline-offset-2 hover:text-zinc-400"
             >
-              Home
+              {LanguageTextData.home}
             </a>
           </li>
           <Separator orientation="vertical" />
@@ -33,7 +33,7 @@ export function Header() {
               href="#About"
               className="hover:underline hover:underline-offset-2 hover:text-zinc-400"
             >
-              Sobre
+              {LanguageTextData.about}
             </a>
           </li>
           <Separator orientation="vertical" />
@@ -42,7 +42,7 @@ export function Header() {
               href="#Skills"
               className="hover:underline hover:underline-offset-2 hover:text-zinc-400"
             >
-              Proficiências
+              {LanguageTextData.skills}
             </a>
           </li>
           <Separator orientation="vertical" />
@@ -51,7 +51,7 @@ export function Header() {
               href="#Experiences"
               className="hover:underline hover:underline-offset-2 hover:text-zinc-400"
             >
-              Experiências
+              {LanguageTextData.experiences}
             </a>
           </li>
           <Separator orientation="vertical" />
@@ -60,7 +60,7 @@ export function Header() {
               href="#Contact"
               className="hover:underline hover:underline-offset-2 hover:text-zinc-400"
             >
-              Contato
+              {LanguageTextData.contact}
             </a>
           </li>
           <Separator orientation="vertical" />
