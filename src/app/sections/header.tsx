@@ -2,7 +2,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { Separator } from '@/components/ui/separator'
 import { Socials } from '@/components/ui/socials'
 
-export function Header({ LanguageTextData }: any) {
+export function Header({ LanguageTextData, LanguageSwitch }: any) {
   return (
     <nav
       id="desktop-nav"
@@ -65,6 +65,7 @@ export function Header({ LanguageTextData }: any) {
           </li>
           <Separator orientation="vertical" />
           <Socials />
+          {LanguageSwitch}
         </ul>
       </div>
     </nav>
