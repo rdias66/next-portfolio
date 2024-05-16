@@ -27,7 +27,7 @@ export default function App() {
           <div className="p-10">
             <Label>PT-BR</Label>
             <Switch
-              id="language-change"
+              id="languageSwitch"
               className="m-2"
               checked={languageController}
               onCheckedChange={setLanguage}
@@ -37,7 +37,7 @@ export default function App() {
         }
       />
       <div className=" absolute h-full w-full bg-zinc-800 p-10 text-white">
-        <Home />
+        <Home LanguageTextData={pageTexts.homeTexts} />
         <About />
         <Skills />
         <Experiences />
