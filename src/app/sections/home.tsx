@@ -1,9 +1,13 @@
+import { Button } from '@/components/ui/button'
+
 export function Home({ LanguageTextData }: any) {
   return (
-    <section className="pl-4 pr-4 max-w-full" id="Home">
-      <div className="m-64 w-1/3 bg-slate-700">
-        <h1>{LanguageTextData.mainText}</h1>
-        <p>{LanguageTextData.introduction} </p>
+    <section id="Home" className="flex h-5/6">
+      <div className="w-1/2 bg-slate-700 p-10 m-auto flex-row">
+        <h1 className="text-4xl">{LanguageTextData.mainText}</h1>
+        <p className="text-xl">{LanguageTextData.introduction} </p>
+
+        <Button className="">{LanguageTextData.buttonText}</Button>
       </div>
     </section>
   )

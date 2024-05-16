@@ -10,6 +10,7 @@ const TextsEN = () => {
     mainText: 'Hi, im rodrigo dias a full stack developer',
     introduction:
       'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum',
+    buttonText: 'Lets connect!',
   }
   return { headerTexts, homeTexts }
 }

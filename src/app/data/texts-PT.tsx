@@ -10,6 +10,7 @@ const TextsPT = () => {
     mainText: 'Oi, eu sou rodrigo dias um desenvolvedor full stack',
     introduction:
       'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum',
+    buttonText: 'Vamos nos conectar!',
   }
   return { headerTexts, homeTexts }
 }
