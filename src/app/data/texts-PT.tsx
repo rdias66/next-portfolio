@@ -7,10 +7,17 @@ const TextsPT = () => {
     contact: 'Contato',
   }
   const homeTexts = {
-    mainText: 'Oi, eu sou rodrigo dias um desenvolvedor full stack',
+    mainText: 'Olá eu sou Rodrigo Dias, um ',
     introduction:
       'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum',
     buttonText: 'Vamos nos conectar!',
+    toRotate: [
+      'Desenvolvedor Mobile',
+      'Desenvolvedor Backend',
+      'Desenvolvedor FrontEnd',
+      'Desenvolvedor Full stack',
+      'Entusiasta DevOps',
+    ],
   }
   return { headerTexts, homeTexts }
 }
