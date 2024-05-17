@@ -1,4 +1,5 @@
 'use client'
+
 import { Home } from '@/app/sections/home'
 import { About } from '@/app/sections/about'
 import { Skills } from '@/app/sections/skills'
@@ -21,27 +22,32 @@ export default function App() {
   }
   return (
     <div>
-      <Header
-        LanguageTextData={pageTexts.headerTexts}
-        LanguageSwitch={
-          <div className="p-10">
-            <Label>PT-BR</Label>
-            <Switch
-              id="languageSwitch"
-              className="m-2"
-              checked={languageController}
-              onCheckedChange={setLanguage}
-            />
-            <Label>EN</Label>
-          </div>
-        }
-      />
-      <div className=" absolute h-full w-full bg-zinc-800 p-10 text-white">
-        <Home LanguageTextData={pageTexts.homeTexts} />
-        <About />
-        <Skills />
-        <Experiences />
-        <Contact />
+      <div className="absolute h-full w-full bg-starry-sky overflow-hidden">
+        <Header
+          LanguageTextData={pageTexts.headerTexts}
+          LanguageSwitch={
+            <div className="p-10">
+              <Label>PT-BR</Label>
+              <Switch
+                id="languageSwitch"
+                className="m-2"
+                checked={languageController}
+                onCheckedChange={setLanguage}
+              />
+              <Label>EN</Label>
+            </div>
+          }
+        />
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <div className="absolute h-full w-full p-10">
+          <Home LanguageTextData={pageTexts.homeTexts} />
+          <About />
+          <Skills />
+          <Experiences />
+          <Contact />
+        </div>
       </div>
     </div>
   )

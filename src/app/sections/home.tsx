@@ -43,11 +43,13 @@ export function Home({ LanguageTextData }: any) {
       <div className="container mx-auto px-4 mt-20">
         <div className="flex flex-wrap -mx-2">
           <div className="flex flex-col w-full md:w-1/2 px-2 ">
-            <h1 className="text-4xl  max-w-full my-6">
+            <h1 className="text-4xl  max-w-full my-6 text-zinc-100">
               {LanguageTextData.mainText}
-              <span className="wrap text-4xl">{text}</span>
+              <span className="wrap text-4xl text-zinc-100">{text}</span>
             </h1>
-            <p className="text-xl my-10">{LanguageTextData.introduction} </p>
+            <p className="text-xl my-10 text-zinc-100">
+              {LanguageTextData.introduction}{' '}
+            </p>
             <div className="w-full flex justify-center mt-10">
               <Button className="size-fit text-lg border border-zinc-400 hover:bg-zinc-400 hover:text-black hover:border-black">
                 {LanguageTextData.buttonText}
