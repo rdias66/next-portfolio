@@ -10,7 +10,8 @@ const TextsEN = () => {
     mainText: 'Hi Im Rodrigo Dias, a ',
     introduction:
       'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum',
-    buttonText: 'Lets connect!',
+    connectButtonText: 'Lets connect!',
+    cvButtonText: 'Download CV',
     toRotate: [
       'Mobile Developer',
       'Backend Developer',

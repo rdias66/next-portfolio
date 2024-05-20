@@ -1,6 +1,8 @@
 import { Button } from '@/components/ui/button'
-import Image from 'next/image'
-import DevGif from '@/app/assets/dev-gif.gif'
+import Lottie from 'lottie-react'
+
+import YogaAnimation from '@/app/assets/YogaDev.json'
+
 import { useState, useEffect } from 'react'
 
 export function Home({ LanguageTextData }: any) {
@@ -40,24 +42,32 @@ export function Home({ LanguageTextData }: any) {
 
   return (
     <section id="Home">
-      <div className="container mx-auto px-4 mt-20">
-        <div className="flex flex-wrap -mx-2">
+      <div className="container mx-auto px-4 mt-20 w-4/6">
+        <div className="flex flex-wrap max-h-96">
           <div className="flex flex-col w-full md:w-1/2 px-2 ">
-            <h1 className="text-4xl  max-w-full my-6 text-zinc-100">
-              {LanguageTextData.mainText}
-              <span className="wrap text-4xl text-zinc-100">{text}</span>
-            </h1>
-            <p className="text-xl my-10 text-zinc-100">
+            <div className="h-32 overflow-hidden">
+              <h1 className="text-4xl  max-w-full my-6 text-zinc-100 font-bold">
+                {LanguageTextData.mainText}
+                <span className="wrap text-4xl text-zinc-100 font-bold">
+                  {text}
+                </span>
+              </h1>
+            </div>
+            <p className=" text-xl  text-zinc-100">
               {LanguageTextData.introduction}{' '}
             </p>
-            <div className="w-full flex justify-center mt-10">
+
+            <div className="w-full flex flex-col justify-center my-10 items-center ">
+              <Button className="size-fit text-lg border border-zinc-400 hover:bg-zinc-400 hover:text-black hover:border-black my-5">
+                {LanguageTextData.connectButtonText}
+              </Button>
               <Button className="size-fit text-lg border border-zinc-400 hover:bg-zinc-400 hover:text-black hover:border-black">
-                {LanguageTextData.buttonText}
+                {LanguageTextData.cvButtonText}
               </Button>
             </div>
           </div>
-          <div className="w-full md:w-1/2 px-2">
-            <Image src={DevGif} alt="Dev Gif" />
+          <div className="ml-16 pl-10">
+            <Lottie className="mb-24" animationData={YogaAnimation} />
           </div>
         </div>
       </div>

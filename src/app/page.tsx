@@ -6,6 +6,7 @@ import { Skills } from '@/app/sections/skills'
 import { Experiences } from '@/app/sections/experiences'
 import { Contact } from '@/app/sections/contact'
 import { Header } from '@/app/sections/header'
+import Stars from '@/components/stars'
 import TextsEN from '@/app/data/texts-EN'
 import TextsPT from '@/app/data/texts-PT'
 import { Switch } from '@/components/ui/switch'
@@ -22,8 +23,10 @@ export default function App() {
   }
   return (
     <div>
-      <div className="absolute h-full w-full bg-starry-sky overflow-hidden">
+      <div className="fixed h-full w-full bg-starry-sky overflow-hidden ">
+        <Stars />
         <Header
+          className="z-0"
           LanguageTextData={pageTexts.headerTexts}
           LanguageSwitch={
             <div className="p-10">
@@ -38,11 +41,8 @@ export default function App() {
             </div>
           }
         />
-        <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
-        <div className="absolute h-full w-full p-10">
-          <Home LanguageTextData={pageTexts.homeTexts} />
+        <div className="">
+          <Home className="" LanguageTextData={pageTexts.homeTexts} />
           <About />
           <Skills />
           <Experiences />

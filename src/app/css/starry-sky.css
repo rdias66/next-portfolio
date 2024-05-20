@@ -13,8 +13,14 @@
   width: 1px;
   height: 1px;
   background: transparent;
-  box-shadow: 500px 1000px #FFF, 800px 1200px #FFF, 300px 200px #FFF; /* Add more box-shadow values */
+  box-shadow: 550px 1100px #FFF, 810px 1230px #FFF, 20px 230px #FFF,
+              760px 1020px #FFF, 980px 1420px #FFF, 330px 205px #FFF,
+              500px 1000px #FFF, 800px 1200px #FFF, 300px 200px #FFF,
+              200px 300px #FFF, 100px 1500px #FFF, 1200px 2500px #FFF, 
+              1500px 100px #FFF, 1600px 1700px #FFF, 1300px 800px #FFF;
+              
   animation: animStar 50s linear infinite;
+  filter: drop-shadow(0 0 2px rgb(202, 197, 126));
 }
 
 #stars2, #stars2:after {
@@ -23,8 +29,13 @@
   width: 2px;
   height: 2px;
   background: transparent;
-  box-shadow: 700px 1500px #FFF, 900px 1700px #FFF, 400px 300px #FFF; /* Add more box-shadow values */
+  box-shadow: 500px 1000px #FFF, 800px 1200px #FFF, 300px 200px #FFF,
+  200px 300px #FFF, 100px 1500px #FFF, 1200px 2500px #FFF, 
+  1500px 100px #FFF, 1600px 1700px #FFF, 1300px 800px #FFF, 
+  1800px 300px #FFF, 1700px 200px #FFF, 1900px 400px #FFF;
+              
   animation: animStar 100s linear infinite;
+  filter: drop-shadow(0 0 1px rgb(202, 197, 126)); 
 }
 
 #stars3, #stars3:after {
@@ -33,10 +44,18 @@
   width: 3px;
   height: 3px;
   background: transparent;
-  box-shadow: 900px 1800px #FFF, 1100px 1900px #FFF, 500px 400px #FFF; /* Add more box-shadow values */
+  box-shadow: 500px 1000px #FFF, 800px 1200px #FFF, 300px 200px #FFF,
+  200px 300px #FFF, 100px 1500px #FFF, 1200px 2500px #FFF, 
+  1800px 300px #FFF, 1700px 200px #FFF, 1900px 400px #FFF;
+              
   animation: animStar 150s linear infinite;
+  filter: drop-shadow(0 0 2px rgb(202, 197, 126));
 }
 
 .bg-starry-sky {
   background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+  overflow: hidden; /* Ensure content doesn't overflow the container */
+  position: relative; /* Ensure child elements are positioned relative to this container */
+  width: 100vw;
+  height: 100vh;
 }
