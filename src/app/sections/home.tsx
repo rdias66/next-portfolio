@@ -1,6 +1,5 @@
 import { Button } from '@/components/ui/button'
 import Lottie from 'lottie-react'
-
 import YogaAnimation from '@/app/assets/YogaDev.json'
 
 import { useState, useEffect } from 'react'
@@ -46,15 +45,13 @@ export function Home({ LanguageTextData }: any) {
         <div className="flex flex-wrap max-h-96">
           <div className="flex flex-col w-full md:w-1/2 px-2 ">
             <div className="h-32 overflow-hidden">
-              <h1 className="text-4xl  max-w-full my-6 text-zinc-100 font-bold">
+              <h1 className="text-4xl  max-w-full my-6 text-zinc-100 font-semibold">
                 {LanguageTextData.mainText}
-                <span className="wrap text-4xl text-zinc-100 font-bold">
-                  {text}
-                </span>
+                <span className="wrap text-4xl text-zinc-100 ">{text}</span>
               </h1>
             </div>
             <p className=" text-xl  text-zinc-100">
-              {LanguageTextData.introduction}{' '}
+              {LanguageTextData.introduction}
             </p>
 
             <div className="w-full flex flex-col justify-center my-10 items-center ">
