@@ -41,7 +41,7 @@ export function Home({ LanguageTextData }: any) {
 
   return (
     <section id="Home">
-      <div className="mx-auto px-4 pb-24 mt-20 w-4/6 bg-zinc-800 bg-opacity-50 rounded-2xl">
+      <div className="mx-auto px-4 pb-24 mt-40 w-4/6 bg-zinc-800 bg-opacity-50 rounded-2xl">
         <div className="flex flex-wrap max-h-96">
           <div className="flex flex-col w-full md:w-1/2 px-2 ">
             <div className="h-32 overflow-hidden">
