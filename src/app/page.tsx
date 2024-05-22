@@ -12,6 +12,7 @@ import TextsPT from '@/app/data/texts-PT'
 import { Switch } from '@/components/ui/switch'
 import { Label } from '@/components/ui/label'
 import React, { useState } from 'react'
+import '@/app/css/starry-sky.css' // Import the custom CSS
 
 let pageTexts = TextsPT()
 
@@ -21,12 +22,15 @@ export default function App() {
     setLanguageController(!languageController)
     pageTexts = languageController ? TextsPT() : TextsEN()
   }
+
   return (
-    <div>
-      <div className="bg bg-cover bg-custom-bg fixed h-full w-full">
-        <Stars />
+    <div className="relative min-h-screen">
+      <div className="bg bg-custom-bg bg-cover fixed top-0 left-0 w-full h-full">
+        <div className="bg-overlay" />
+      </div>
+      <Stars />
+      <div className="relative z-10">
         <Header
-          className="z-0"
           LanguageTextData={pageTexts.headerTexts}
           LanguageSwitch={
             <div className="p-10">

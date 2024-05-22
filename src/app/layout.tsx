@@ -15,7 +15,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${poppins.variable} font-poppins `}>
+    <html
+      lang="en"
+      className={`${poppins.variable} font-poppins scroll-smooth`}
+    >
       <body>
         <script src="https://kit.fontawesome.com/9edb9e3e09.js"></script>
         {children}
