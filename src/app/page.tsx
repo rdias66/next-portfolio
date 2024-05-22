@@ -12,7 +12,7 @@ import TextsPT from '@/app/data/texts-PT'
 import { Switch } from '@/components/ui/switch'
 import { Label } from '@/components/ui/label'
 import React, { useState } from 'react'
-
+import '@/app/css/starry-sky.css'
 let pageTexts = TextsPT()
 
 export default function App() {
@@ -23,7 +23,7 @@ export default function App() {
   }
   return (
     <div>
-      <div className="fixed h-full w-full bg-starry-sky overflow-hidden ">
+      <div className="bg bg-cover bg-custom-bg fixed h-full w-full">
         <Stars />
         <Header
           className="z-0"

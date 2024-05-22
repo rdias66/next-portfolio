@@ -1,10 +1,13 @@
+import '@/app/css/starry-sky.css'
+
 export default function Stars() {
   return (
     <>
-      <div id="stars"></div>
-
-      <div id="stars2"></div>
-      <div id="stars3"></div>
+      <div class="star-field">
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+      </div>
     </>
   )
 }

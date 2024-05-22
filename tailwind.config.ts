@@ -11,6 +11,9 @@ const config = {
   ],
   prefix: '',
   theme: {
+    backgroundImage: {
+      'custom-bg': "url('https://i.ibb.co/87GbbFP/2799006.jpg')",
+    },
     fontFamily: {
       poppins: ['var(--font-poppins)'],
     },
