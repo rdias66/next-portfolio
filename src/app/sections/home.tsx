@@ -41,7 +41,7 @@ export function Home({ LanguageTextData }: any) {
 
   return (
     <section id="Home">
-      <div className="container mx-auto px-4 mt-20 w-4/6">
+      <div className="container mx-auto px-4 pb-24 mt-20 w-4/6 bg-zinc-800 bg-opacity-50 rounded-2xl">
         <div className="flex flex-wrap max-h-96">
           <div className="flex flex-col w-full md:w-1/2 px-2 ">
             <div className="h-32 overflow-hidden">
@@ -54,7 +54,7 @@ export function Home({ LanguageTextData }: any) {
               {LanguageTextData.introduction}
             </p>
 
-            <div className="w-full flex flex-col justify-center my-10 items-center ">
+            <div className="w-full flex flex-col justify-center my-12 items-center ">
               <Button className="size-fit text-lg border border-zinc-400 hover:bg-zinc-400 hover:text-black hover:border-black my-5">
                 {LanguageTextData.connectButtonText}
               </Button>
