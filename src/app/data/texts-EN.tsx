@@ -7,7 +7,7 @@ const TextsEN = () => {
     contact: 'Contact',
   }
   const homeTexts = {
-    mainText: 'Hi Im Rodrigo Dias, a ',
+    mainText: 'Hi! Im Rodrigo Dias, ',
     introduction:
       'Bachelors degree student in Systems Analysis and Development, focusing on web and mobile development of small to large scale apps.',
     connectButtonText: 'Lets connect!',

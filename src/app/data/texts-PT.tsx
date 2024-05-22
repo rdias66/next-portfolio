@@ -7,7 +7,7 @@ const TextsPT = () => {
     contact: 'Contato',
   }
   const homeTexts = {
-    mainText: 'Olá eu sou Rodrigo Dias, ',
+    mainText: 'Olá! Eu sou Rodrigo Dias, ',
     introduction:
       'Graduando em Análise e Desenvolvimento de Sistemas, com foco no desenvolvimento de apps web e mobile de pequena e larga escala',
     connectButtonText: 'Vamos nos conectar!',
