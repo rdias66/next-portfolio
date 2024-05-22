@@ -9,7 +9,7 @@ const TextsEN = () => {
   const homeTexts = {
     mainText: 'Hi Im Rodrigo Dias, a ',
     introduction:
-      'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum',
+      'Bachelors degree student in Systems Analysis and Development, focusing on web and mobile development of small to large scale apps.',
     connectButtonText: 'Lets connect!',
     cvButtonText: 'Download CV',
     toRotate: [

@@ -41,8 +41,8 @@ export default function App() {
             </div>
           }
         />
-        <div className="">
-          <Home className="" LanguageTextData={pageTexts.homeTexts} />
+        <div>
+          <Home LanguageTextData={pageTexts.homeTexts} />
           <About />
           <Skills />
           <Experiences />

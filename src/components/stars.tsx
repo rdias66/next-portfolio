@@ -3,10 +3,10 @@ import '@/app/css/starry-sky.css'
 export default function Stars() {
   return (
     <>
-      <div class="star-field">
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
+      <div className="star-field">
+        <div className="layer"></div>
+        <div className="layer"></div>
+        <div className="layer"></div>
       </div>
     </>
   )
