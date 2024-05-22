@@ -12,7 +12,7 @@ import TextsPT from '@/app/data/texts-PT'
 import { Switch } from '@/components/ui/switch'
 import { Label } from '@/components/ui/label'
 import React, { useState } from 'react'
-import '@/app/css/starry-sky.css'
+
 let pageTexts = TextsPT()
 
 export default function App() {
