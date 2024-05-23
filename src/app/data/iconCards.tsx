@@ -47,7 +47,7 @@ const iconCards = [
   {
     name: 'DevOps',
     icon: DevOpsIcon,
-    boxStyle: 'w-10 h-20 rounded-lg bg-teal-600 shadow-[0_0_6px_green]',
+    boxStyle: 'w-10 h-20 rounded-lg bg-yellow-600 shadow-[0_0_6px_yellow]',
   },
   {
     name: 'Docker',
