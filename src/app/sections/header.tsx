@@ -28,15 +28,7 @@ export function Header({ LanguageTextData, LanguageSwitch }: any) {
             </a>
           </li>
           <Separator orientation="vertical" />
-          <li>
-            <a
-              href="#About"
-              className="hover:underline hover:underline-offset-2 hover:text-zinc-400"
-            >
-              {LanguageTextData.about}
-            </a>
-          </li>
-          <Separator orientation="vertical" />
+
           <li>
             <a
               href="#Skills"

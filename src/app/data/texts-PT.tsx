@@ -20,7 +20,10 @@ const TextsPT = () => {
       'Entusiasta DevOps',
     ],
   }
-  return { headerTexts, homeTexts }
+  const skillsTexts = {
+    techSkillDescription:
+      'Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum',
+  }
+  return { headerTexts, homeTexts, skillsTexts }
 }
-
 export default TextsPT

@@ -1,7 +1,6 @@
 'use client'
 
 import { Home } from '@/app/sections/home'
-import { About } from '@/app/sections/about'
 import { Skills } from '@/app/sections/skills'
 import { Experiences } from '@/app/sections/experiences'
 import { Contact } from '@/app/sections/contact'
@@ -12,7 +11,7 @@ import TextsPT from '@/app/data/texts-PT'
 import { Switch } from '@/components/ui/switch'
 import { Label } from '@/components/ui/label'
 import React, { useState } from 'react'
-import '@/app/css/starry-sky.css' // Import the custom CSS
+import '@/app/css/starry-sky.css'
 
 let pageTexts = TextsPT()
 
@@ -47,8 +46,7 @@ export default function App() {
         />
         <div>
           <Home LanguageTextData={pageTexts.homeTexts} />
-          <About />
-          <Skills />
+          <Skills LanguageTextData={pageTexts.skillsTexts} />
           <Experiences />
           <Contact />
         </div>

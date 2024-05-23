@@ -20,7 +20,11 @@ const TextsEN = () => {
       'DevOps Enthusiast',
     ],
   }
-  return { headerTexts, homeTexts }
+  const skillsTexts = {
+    techSkillDescription:
+      'Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum',
+  }
+  return { headerTexts, homeTexts, skillsTexts }
 }
 
 export default TextsEN
