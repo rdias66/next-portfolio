@@ -46,7 +46,10 @@ export default function App() {
         />
         <div>
           <Home LanguageTextData={pageTexts.homeTexts} />
-          <Skills LanguageTextData={pageTexts.skillsTexts} />
+          <Skills
+            LanguageTextData={pageTexts.skillsTexts}
+            LanguageTitleData={pageTexts.skillsTitle}
+          />
           <Experiences />
           <Contact />
         </div>
