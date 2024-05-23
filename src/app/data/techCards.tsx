@@ -8,7 +8,7 @@ import DevOpsIcon from '@/app/assets/icon-devops.png'
 import DockerIcon from '@/app/assets/icon-docker.png'
 import EnglishIcon from '@/app/assets/icon-english.png'
 
-const iconCards = [
+const techCards = [
   {
     name: 'React',
     icon: ReactIcon,
@@ -61,4 +61,4 @@ const iconCards = [
   },
 ]
 
-export default iconCards
+export default techCards

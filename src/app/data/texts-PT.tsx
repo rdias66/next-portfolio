@@ -73,6 +73,51 @@ const TextsPT = () => {
     },
   ]
   const skillsTitle = 'Proficiências'
-  return { headerTexts, homeTexts, skillsTexts, skillsTitle }
+
+  const experienceTexts = [
+    {
+      id: 1,
+      category: 'education',
+      year: '2024 - ongoing',
+      title: 'Análise e Desenvolvimento de Sistemas - UTFPR Ponta Grossa',
+      desc: 'Graduação superior',
+    },
+    {
+      id: 2,
+      category: 'education',
+      year: '2019 - Locked on 2023',
+      title: 'Engenharia elétrica - UTFPR Ponta Grossa',
+      desc: 'Trancado',
+    },
+    {
+      id: 3,
+      category: 'education',
+      year: '2022 - 2024',
+      title: 'Estagiário - Copel CSL',
+      desc: 'Redirecionamento digital e controle de dados de manutenção de equipamentos elétricos',
+    },
+    {
+      id: 4,
+      category: 'experience',
+      year: '2022 - 2024',
+      title: 'Desenvolvedor Backend - Andre Sena Fitness Experience',
+      desc: ' CRUD, geração e manutenção de rotas e funcionalidades de email',
+    },
+    {
+      id: 5,
+      category: 'experience',
+      year: '6/2017 - 1/2018',
+      title: 'Estagiário - ETEC Escolástica Rosa',
+      desc: 'Estagiário de TI geral, foco em manutenção de rede, controles baseados em  Excel e tarefas gerais do dia-a-dia',
+    },
+    {
+      id: 6,
+      category: 'experience',
+      year: '1/2017 - 5/2017',
+      title: 'Professor Assistente - Logic Minds Educação Tecnológica ',
+      desc: 'Auxiliava e lecionava classes de robótica(Nxt), lógica de programação e tecnologias em geral para crianças de 8 a 17 anos',
+    },
+  ]
+  return { headerTexts, homeTexts, skillsTexts, skillsTitle, experienceTexts }
 }
 export default TextsPT

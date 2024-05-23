@@ -1,4 +1,4 @@
-import iconCards from '@/app/data/iconCards'
+import techCards from '@/app/data/techCards'
 import Image from 'next/image'
 
 export function Skills({
@@ -18,7 +18,7 @@ export function Skills({
       </h1>
 
       <div className="w-4/5 rounded-2xl flex flex-wrap justify-center items-center">
-        {iconCards.map((card, index) => {
+        {techCards.map((card, index) => {
           const matchingLanguageText = LanguageTextData.find(
             (data: { title: string }) =>
               data.title === card.name || data.title === 'Inglês',
