@@ -40,7 +40,7 @@ export function Home({ LanguageTextData }: any) {
   }, [text])
 
   return (
-    <section id="Home">
+    <section id="Home" className="">
       <div className=" mx-auto px-4 pb-24 mt-64 w-4/6 bg-zinc-800 bg-opacity-50 rounded-2xl ">
         <div className="flex flex-wrap max-h-96">
           <div className="flex flex-col w-full md:w-1/2 px-2 ">

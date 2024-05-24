@@ -78,47 +78,49 @@ const TextsEN = () => {
     {
       id: 1,
       category: 'education',
-      year: '2024 - ongoing',
-      title: 'System Analysis and Development - UTFPR Ponta Grossa',
+      year: '1/2024 - ongoing',
+      title: 'Systems Analysis and Development - UTFPR Ponta Grossa',
       desc: "Bachelor's degree.",
     },
     {
       id: 2,
       category: 'education',
-      year: '2019 - Locked on 2023',
+      year: '1/2019 - Locked on 2023',
       title: 'Electrical engineering - UTFPR Ponta Grossa',
       desc: 'Locked',
     },
     {
       id: 3,
-      category: 'education',
-      year: '2022 - 2024',
-      title: 'Intern - Copel CSL',
-      desc: 'Maintenance redirection of electrical equipment.',
+      category: 'work',
+      year: '1/2024 - ongoing',
+      title: 'Mobile Developer - Fit-Experience',
+      desc: 'Full app development based on React-Native and Expo.',
     },
     {
       id: 4,
-      category: 'experience',
-      year: '2022 - present',
-      title: 'Back-end developer - Andre Sena Fitness Experience',
-      desc: 'CRUD, route handling and email features.',
+      category: 'work',
+      year: '12/2022 - 1/2024',
+      title: 'Intern - Copel CSL',
+      desc: 'Maintenance digital redirection and data control of electrical equipment.',
     },
     {
       id: 5,
-      category: 'experience',
-      year: '6/2017 - 1/2018',
-      title: 'Intern - ETEC Escolástica Rosa',
-      desc: 'General IT intern, focused on network maintenance, data handling using Excel and general day-to-day arrands.',
-    },
-    {
-      id: 6,
-      category: 'experience',
-      year: '1/2017 - 5/2017',
-      title: 'Assistant Teacher - Logic Minds Educação Tecnológica ',
-      desc: 'Assistant teacher for classes regardind robotics, initial programming and tech in general for children ages 8 to 17.',
+      category: 'work',
+      year: '4/2022 - 4/2024',
+      title: 'Back-end developer - Andre Sena Fitness Experience',
+      desc: 'CRUD, route creation and handling and email features.',
     },
   ]
-  return { headerTexts, homeTexts, skillsTexts, skillsTitle, experienceTexts }
+
+  const experienceTitle = 'Experience'
+  return {
+    headerTexts,
+    homeTexts,
+    skillsTexts,
+    skillsTitle,
+    experienceTexts,
+    experienceTitle,
+  }
 }
 
 export default TextsEN

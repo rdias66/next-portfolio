@@ -78,46 +78,48 @@ const TextsPT = () => {
     {
       id: 1,
       category: 'education',
-      year: '2024 - ongoing',
+      year: '1/2024 - em andamento',
       title: 'Análise e Desenvolvimento de Sistemas - UTFPR Ponta Grossa',
       desc: 'Graduação superior',
     },
     {
       id: 2,
       category: 'education',
-      year: '2019 - Locked on 2023',
+      year: '1/2019 - Locked on 2023',
       title: 'Engenharia elétrica - UTFPR Ponta Grossa',
       desc: 'Trancado',
     },
+
     {
       id: 3,
-      category: 'education',
-      year: '2022 - 2024',
+      category: 'work',
+      year: '1/2024 - em andamento',
+      title: 'Desenvolvedor Mobile - Fit-Experience',
+      desc: 'Desenvolvimento completo baseado em React-Native e Expo',
+    },
+    {
+      id: 4,
+      category: 'work',
+      year: '12/2022 - 1/2024',
       title: 'Estagiário - Copel CSL',
       desc: 'Redirecionamento digital e controle de dados de manutenção de equipamentos elétricos',
     },
     {
-      id: 4,
-      category: 'experience',
-      year: '2022 - 2024',
+      id: 5,
+      category: 'work',
+      year: '4/2022 - 4/2024',
       title: 'Desenvolvedor Backend - Andre Sena Fitness Experience',
       desc: ' CRUD, geração e manutenção de rotas e funcionalidades de email',
     },
-    {
-      id: 5,
-      category: 'experience',
-      year: '6/2017 - 1/2018',
-      title: 'Estagiário - ETEC Escolástica Rosa',
-      desc: 'Estagiário de TI geral, foco em manutenção de rede, controles baseados em  Excel e tarefas gerais do dia-a-dia',
-    },
-    {
-      id: 6,
-      category: 'experience',
-      year: '1/2017 - 5/2017',
-      title: 'Professor Assistente - Logic Minds Educação Tecnológica ',
-      desc: 'Auxiliava e lecionava classes de robótica(Nxt), lógica de programação e tecnologias em geral para crianças de 8 a 17 anos',
-    },
   ]
-  return { headerTexts, homeTexts, skillsTexts, skillsTitle, experienceTexts }
+  const experienceTitle = 'Experiência'
+  return {
+    headerTexts,
+    homeTexts,
+    skillsTexts,
+    skillsTitle,
+    experienceTexts,
+    experienceTitle,
+  }
 }
 export default TextsPT
