@@ -113,6 +113,14 @@ const TextsEN = () => {
   ]
 
   const experienceTitle = 'Experience'
+
+  const contactTexts = {
+    title: 'Contact',
+    contactText:
+      'Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum',
+    buttonText: 'Send Email',
+  }
+
   return {
     headerTexts,
     homeTexts,
@@ -120,6 +128,7 @@ const TextsEN = () => {
     skillsTitle,
     experienceTexts,
     experienceTitle,
+    contactTexts,
   }
 }
 

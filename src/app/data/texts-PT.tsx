@@ -113,6 +113,14 @@ const TextsPT = () => {
     },
   ]
   const experienceTitle = 'Experiência'
+
+  const contactTexts = {
+    title: 'Contato',
+    contactText:
+      'Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum',
+    buttonText: 'Enviar Email',
+  }
+
   return {
     headerTexts,
     homeTexts,
@@ -120,6 +128,7 @@ const TextsPT = () => {
     skillsTitle,
     experienceTexts,
     experienceTitle,
+    contactTexts,
   }
 }
 export default TextsPT
