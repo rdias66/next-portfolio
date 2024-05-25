@@ -1,4 +1,4 @@
-import techCards from '@/app/data/techCards'
+import techCards from '@/components/techCards'
 import Image from 'next/image'
 
 export function Skills({
