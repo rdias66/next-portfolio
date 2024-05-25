@@ -119,6 +119,7 @@ const TextsEN = () => {
     contactText:
       'Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum',
     buttonText: 'Send Email',
+    bottomContactText: 'Or contact me in any of the above',
   }
 
   return {

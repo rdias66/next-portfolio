@@ -119,6 +119,7 @@ const TextsPT = () => {
     contactText:
       'Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum',
     buttonText: 'Enviar Email',
+    bottomContactText: 'Ou fale comigo em qualquer um dos acima',
   }
 
   return {
