@@ -5,6 +5,7 @@ import { Skills } from '@/app/sections/skills'
 import { Experiences } from '@/app/sections/experiences'
 import { Contact } from '@/app/sections/contact'
 import { Header } from '@/app/sections/header'
+import { Footer } from '@/app/sections/footer'
 import Stars from '@/components/stars'
 import TextsEN from '@/app/data/texts-EN'
 import TextsPT from '@/app/data/texts-PT'
@@ -54,8 +55,9 @@ export default function App() {
             LanguageTextData={pageTexts.experienceTexts}
             LanguageTitleData={pageTexts.experienceTitle}
           />
-          <Contact />
+          <Contact LanguageTextData={pageTexts.contactTexts} />
         </div>
+        <Footer />
       </div>
     </div>
   )
