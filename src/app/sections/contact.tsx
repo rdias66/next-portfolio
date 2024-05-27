@@ -13,7 +13,7 @@ export function Contact({ LanguageTextData }: any) {
         </h1>
         <p className="text-white text-xl">{LanguageTextData.contactText}</p>
         <Button>
-          <Lottie animationData={SendEmail} autoplay={false} play={play} />
+          <Lottie animationData={SendEmail} autoplay={false} />
           {LanguageTextData.buttonText}
         </Button>
         <a
