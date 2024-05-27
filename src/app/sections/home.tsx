@@ -55,10 +55,10 @@ export function Home({ LanguageTextData }: any) {
             </p>
 
             <div className="w-full flex flex-col justify-center my-12 items-center ">
-              <Button className="size-fit text-lg border border-zinc-400 hover:bg-zinc-400 hover:text-black hover:border-black my-5">
+              <Button className="size-fit text-lg border border-transparent hover:border-zinc-400 my-5">
                 {LanguageTextData.connectButtonText}
               </Button>
-              <Button className="size-fit text-lg border border-zinc-400 hover:bg-zinc-400 hover:text-black hover:border-black">
+              <Button className="size-fit text-lg border border-transparent hover:border-zinc-400">
                 {LanguageTextData.cvButtonText}
               </Button>
             </div>
