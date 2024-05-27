@@ -6,7 +6,7 @@ export function Header({ LanguageTextData, LanguageSwitch }: any) {
   return (
     <nav
       id="desktop-nav"
-      className="fixed flex top-0 left-0 z-20 w-full justify-around items-center h-20 bg-transparent text-white hover:cursor-default shadow-soft-bottom shadow-zinc-600"
+      className="fixed flex top-0 left-0 z-20 w-full justify-around items-center h-20 bg-zinc-800 bg-opacity-60 text-white hover:cursor-default shadow-soft-bottom shadow-zinc-600 "
     >
       <div className="flex gap-6 items-center">
         <Avatar className="size-14">
