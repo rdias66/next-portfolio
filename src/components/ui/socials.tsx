@@ -32,7 +32,7 @@ export function Socials() {
         target="_blank"
         rel="noreferrer"
       >
-        <i className="fa-brands fa-twitter fa-xl"></i>
+        <i className="fa-brands fa-twitter fa-xl text-white"></i>
       </a>
     </div>
   )

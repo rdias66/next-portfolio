@@ -13,7 +13,7 @@ export function Experiences({
   return (
     <section
       id="Experiences"
-      className="flex flex-col items-center justify-center min-h-screen mt-40"
+      className="flex flex-col items-center justify-center  mt-40"
     >
       <h1 className="text-white text-4xl p-5 font-semibold">
         {LanguageTitleData}
