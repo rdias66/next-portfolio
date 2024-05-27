@@ -117,7 +117,7 @@ const TextsPT = () => {
   const contactTexts = {
     title: 'Contato',
     contactText:
-      'Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum',
+      'Caso você queira me enviar um email sobre sugestões, oportunidadess ou se tem algo que eu possa lhe ajudar, clique no botão abaixo',
     buttonText: 'Enviar Email',
     bottomContactText: 'Ou fale comigo em qualquer um dos acima',
   }

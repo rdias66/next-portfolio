@@ -36,7 +36,9 @@ export function Contact({ LanguageTextData }: any) {
       <h1 className=" text-4xl p-5 font-semibold">{LanguageTextData.title}</h1>
       <div className="mx-auto px-4 w-3/6 bg-zinc-800 bg-opacity-50 rounded-2xl">
         <div className="flex flex-col">
-          <p className=" text-xl p-5 mx-auto">{LanguageTextData.contactText}</p>
+          <p className=" text-base p-5 mx-auto">
+            {LanguageTextData.contactText}
+          </p>
           <Button
             className="flex items-center w-48 h-12 p-5 mb-5 mx-auto"
             onMouseEnter={handleMouseEnter}
@@ -55,7 +57,7 @@ export function Contact({ LanguageTextData }: any) {
             <Socials />
           </div>
 
-          <h3 className=" text-sm p-5 mx-auto">
+          <h3 className=" text-base p-5 mx-auto">
             {LanguageTextData.bottomContactText}
           </h3>
         </div>

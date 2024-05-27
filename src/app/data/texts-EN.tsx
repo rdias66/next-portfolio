@@ -117,7 +117,7 @@ const TextsEN = () => {
   const contactTexts = {
     title: 'Contact',
     contactText:
-      'Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum',
+      'In case you want to email me regarding sugestions, oportunities or if there is something I can help you with, you can click on the button below',
     buttonText: 'Send Email',
     bottomContactText: 'Or contact me in any of the above',
   }
