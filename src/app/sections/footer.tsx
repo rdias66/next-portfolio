@@ -25,7 +25,12 @@ export function Footer({ LanguageTextData }: any) {
                   <AvatarFallback>VC</AvatarFallback>
                 </Avatar>
                 <div className="space-y-1 p-2">
-                  <h4 className="text-sm font-semibold">@nextjs</h4>
+                  <a href="https://nextjs.org" target="_blank">
+                    <h4 className="text-sm font-semibold hover:underline hover:underline-offset-2 hover:text-zinc-400">
+                      @nextjs
+                    </h4>
+                  </a>
+
                   <p className="text-sm">React Framework .</p>
                 </div>
               </div>
@@ -35,7 +40,12 @@ export function Footer({ LanguageTextData }: any) {
                   <AvatarFallback>TW</AvatarFallback>
                 </Avatar>
                 <div className="space-y-1 p-2">
-                  <h4 className="text-sm font-semibold">@tailwindcss</h4>
+                  <a href="https://tailwindcss.com" target="_blank">
+                    <h4 className="text-sm font-semibold hover:underline hover:underline-offset-2 hover:text-zinc-400">
+                      @tailwindcss
+                    </h4>
+                  </a>
+
                   <p className="text-sm">CSS Framework.</p>
                 </div>
               </div>
@@ -45,7 +55,12 @@ export function Footer({ LanguageTextData }: any) {
                   <AvatarFallback>SH</AvatarFallback>
                 </Avatar>
                 <div className="space-y-1 p-2">
-                  <h4 className="text-sm font-semibold">@shadcn-ui</h4>
+                  <a href="https://ui.shadcn.com" target="_blank">
+                    <h4 className="text-sm font-semibold hover:underline hover:underline-offset-2 hover:text-zinc-400">
+                      @shadcn-ui
+                    </h4>
+                  </a>
+
                   <p className="text-sm">UI Framework.</p>
                 </div>
               </div>
@@ -53,7 +68,7 @@ export function Footer({ LanguageTextData }: any) {
           </HoverCardContent>
         </HoverCard>
 
-        <span className="text-sm font-thin  my-auto ">
+        <span className="text-sm font-thin  my-auto text-zinc-400 cursor-default">
           {LanguageTextData.yearStateText}
         </span>
         <a
