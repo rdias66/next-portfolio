@@ -3,6 +3,7 @@ import SendEmail from '@/app/assets/SendEmail.json'
 import { Button } from '@/components/ui/button'
 import { useRef, useEffect } from 'react'
 import { Socials } from '@/components/ui/socials'
+
 export function Contact({ LanguageTextData }: any) {
   const lottieRef = useRef<LottieRefCurrentProps | null>(null)
 
@@ -20,7 +21,9 @@ export function Contact({ LanguageTextData }: any) {
     }
   }
 
-  const handleMouseClick = () => {}
+  const handleMouseClick = () => {
+    window.location.href = 'mailto:dias.a@live.com'
+  }
 
   useEffect(() => {
     if (lottieRef.current) {
