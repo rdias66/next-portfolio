@@ -6,14 +6,16 @@ import {
 } from '@/components/ui/hover-card'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 
-export function Footer() {
+export function Footer({ LanguageTextData }: any) {
   return (
     <div className="mt-10 static bottom-0 w-full h-20  bg-zinc-800 bg-opacity-60 text-white ">
       <Separator className="w-full" orientation="horizontal" />
       <div className="flex flex-row justify-evenly items-center mt-7">
         <HoverCard>
           <HoverCardTrigger asChild>
-            <h4 className="text-white text-sm cursor-default">Built with</h4>
+            <h4 className="text-white text-sm cursor-default">
+              {LanguageTextData.hoverCardText}
+            </h4>
           </HoverCardTrigger>
           <HoverCardContent className="w-80 bg-zinc-900 text-white ">
             <div className="flex flex-col ">
@@ -51,14 +53,16 @@ export function Footer() {
           </HoverCardContent>
         </HoverCard>
 
-        <span className="text-sm font-thin  my-auto ">2024</span>
+        <span className="text-sm font-thin  my-auto ">
+          {LanguageTextData.yearStateText}
+        </span>
         <a
           href="https://www.github.com/rdias66/next-portfolio"
           className="hover:underline hover:underline-offset-2 hover:text-zinc-400  my-auto "
           target="_blank"
           rel="noreferrer"
         >
-          <p className="text-sm font-thin">Source code</p>
+          <p className="text-sm font-thin">{LanguageTextData.codeLinkText}</p>
         </a>
       </div>
     </div>

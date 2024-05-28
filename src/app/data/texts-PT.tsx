@@ -121,6 +121,11 @@ const TextsPT = () => {
     buttonText: 'Enviar Email',
     bottomContactText: 'Ou fale comigo em qualquer um dos acima',
   }
+  const footerTexts = {
+    hoverCardText: 'Construido com',
+    yearStateText: 'em desenvolvimento  |  2024',
+    codeLinkText: 'Codigo fonte',
+  }
 
   return {
     headerTexts,
@@ -130,6 +135,7 @@ const TextsPT = () => {
     experienceTexts,
     experienceTitle,
     contactTexts,
+    footerTexts,
   }
 }
 export default TextsPT

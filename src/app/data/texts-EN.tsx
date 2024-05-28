@@ -122,6 +122,12 @@ const TextsEN = () => {
     bottomContactText: 'Or contact me in any of the above',
   }
 
+  const footerTexts = {
+    hoverCardText: 'Built with',
+    yearStateText: 'in development  |  2024',
+    codeLinkText: 'Source code',
+  }
+
   return {
     headerTexts,
     homeTexts,
@@ -130,6 +136,7 @@ const TextsEN = () => {
     experienceTexts,
     experienceTitle,
     contactTexts,
+    footerTexts,
   }
 }
 

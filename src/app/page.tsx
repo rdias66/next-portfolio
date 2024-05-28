@@ -57,7 +57,7 @@ export default function App() {
           />
           <Contact LanguageTextData={pageTexts.contactTexts} />
         </div>
-        <Footer />
+        <Footer LanguageTextData={pageTexts.footerTexts} />
       </div>
     </div>
   )
