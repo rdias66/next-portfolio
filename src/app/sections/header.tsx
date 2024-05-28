@@ -3,6 +3,16 @@ import { Separator } from '@/components/ui/separator'
 import { Socials } from '@/components/ui/socials'
 
 export function Header({ LanguageTextData, LanguageSwitch }: any) {
+  const scrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId)
+    if (section) {
+      section.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center', // Ensures the section is centered in the viewport
+      })
+    }
+  }
+
   return (
     <nav
       id="desktop-nav"
@@ -21,8 +31,8 @@ export function Header({ LanguageTextData, LanguageSwitch }: any) {
         <ul className="flex h-5 items-center space-x-4 text-sm">
           <li>
             <a
-              href="#Home"
-              className="hover:underline hover:underline-offset-2 hover:text-zinc-400"
+              onClick={() => scrollToSection('Home')}
+              className="hover:underline hover:underline-offset-2 hover:text-zinc-400 hover:cursor-pointer"
             >
               {LanguageTextData.home}
             </a>
@@ -31,8 +41,8 @@ export function Header({ LanguageTextData, LanguageSwitch }: any) {
 
           <li>
             <a
-              href="#Skills"
-              className="hover:underline hover:underline-offset-2 hover:text-zinc-400"
+              onClick={() => scrollToSection('Skills')}
+              className="hover:underline hover:underline-offset-2 hover:text-zinc-400 hover:cursor-pointer"
             >
               {LanguageTextData.skills}
             </a>
@@ -40,8 +50,8 @@ export function Header({ LanguageTextData, LanguageSwitch }: any) {
           <Separator orientation="vertical" />
           <li>
             <a
-              href="#Experiences"
-              className="hover:underline hover:underline-offset-2 hover:text-zinc-400"
+              onClick={() => scrollToSection('Experiences')}
+              className="hover:underline hover:underline-offset-2 hover:text-zinc-400 hover:cursor-pointer"
             >
               {LanguageTextData.experiences}
             </a>
@@ -49,8 +59,8 @@ export function Header({ LanguageTextData, LanguageSwitch }: any) {
           <Separator orientation="vertical" />
           <li>
             <a
-              href="#Contact"
-              className="hover:underline hover:underline-offset-2 hover:text-zinc-400"
+              onClick={() => scrollToSection('Contact')}
+              className="hover:underline hover:underline-offset-2 hover:text-zinc-400 hover:cursor-pointer"
             >
               {LanguageTextData.contact}
             </a>

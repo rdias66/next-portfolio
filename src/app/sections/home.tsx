@@ -39,6 +39,16 @@ export function Home({ LanguageTextData }: any) {
     }
   }, [text])
 
+  const download = () => {
+    const cvUrl = LanguageTextData.isEn
+      ? '/Rodrigo-Dias-CV-EN.pdf'
+      : '/Rodrigo-Dias-CV-PTBR.pdf'
+    window.open(cvUrl, '_blank', 'noopener,noreferrer')
+  }
+  const scrollToContact = () => {
+    document.getElementById('Contact')?.scrollIntoView({ behavior: 'smooth' })
+  }
+
   return (
     <section id="Home" className="">
       <div className=" mx-auto px-4 pb-24 mt-64 w-4/6 bg-zinc-800 bg-opacity-50 rounded-2xl ">
@@ -55,10 +65,16 @@ export function Home({ LanguageTextData }: any) {
             </p>
 
             <div className="w-full flex flex-col justify-center my-12 items-center ">
-              <Button className="size-fit text-lg border border-transparent hover:border-zinc-400 my-5">
+              <Button
+                onClick={scrollToContact}
+                className="size-fit text-lg border border-transparent hover:border-zinc-400 my-5"
+              >
                 {LanguageTextData.connectButtonText}
               </Button>
-              <Button className="size-fit text-lg border border-transparent hover:border-zinc-400">
+              <Button
+                onClick={download}
+                className="size-fit text-lg border border-transparent hover:border-zinc-400"
+              >
                 {LanguageTextData.cvButtonText}
               </Button>
             </div>

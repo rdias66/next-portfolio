@@ -19,6 +19,7 @@ const TextsPT = () => {
       'Desenvolvedor Full stack',
       'Entusiasta DevOps',
     ],
+    isEn: false,
   }
   const skillsTexts = [
     {
