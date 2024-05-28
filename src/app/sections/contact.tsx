@@ -24,7 +24,7 @@ export function Contact({ LanguageTextData }: any) {
 
   useEffect(() => {
     if (lottieRef.current) {
-      lottieRef.current.goToAndStop(0, true)
+      lottieRef.current.goToAndStop(54, true)
     }
   }, [])
 
