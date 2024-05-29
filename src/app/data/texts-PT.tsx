@@ -124,7 +124,7 @@ const TextsPT = () => {
   }
   const footerTexts = {
     hoverCardText: 'Construido com',
-    yearStateText: 'em desenvolvimento  |  2024',
+    yearStateText: '2024',
     codeLinkText: 'Codigo fonte',
   }
 

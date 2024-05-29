@@ -125,7 +125,7 @@ const TextsEN = () => {
 
   const footerTexts = {
     hoverCardText: 'Built with',
-    yearStateText: 'in development  |  2024',
+    yearStateText: '2024',
     codeLinkText: 'Source code',
   }
 
