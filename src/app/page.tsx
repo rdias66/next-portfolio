@@ -33,15 +33,17 @@ export default function App() {
         <Header
           LanguageTextData={pageTexts.headerTexts}
           LanguageSwitch={
-            <div className="p-10">
-              <Label>PT-BR</Label>
+            <div className="">
+              <Label className="text-xm md:text-sm lg:text-base xl:text-base">
+                PT-BR
+              </Label>
               <Switch
                 id="languageSwitch"
-                className="m-2"
+                className="m-1 lg:m-2"
                 checked={languageController}
                 onCheckedChange={setLanguage}
               />
-              <Label>EN</Label>
+              <Label className="text-xm ">EN</Label>
             </div>
           }
         />

@@ -6,19 +6,25 @@ export function Header({ LanguageTextData, LanguageSwitch }: any) {
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId)
     if (section) {
-      section.scrollIntoView({
-        behavior: 'smooth',
-        block: 'center', // Ensures the section is centered in the viewport
-      })
+      if (section.id == 'Skills' || section.id == 'Experiences')
+        section.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start',
+        })
+      else
+        section.scrollIntoView({
+          behavior: 'smooth',
+          block: 'center',
+        })
     }
   }
 
   return (
     <nav
       id="desktop-nav"
-      className="fixed flex top-0 left-0 z-20 w-full justify-around items-center h-20 bg-zinc-800 bg-opacity-60 text-white hover:cursor-default shadow-soft-bottom shadow-zinc-600 "
+      className="fixed flex top-0 left-0 z-20  w-full items-center justify-center lg:justify-around xl:justify-around 2xl:justify-around h-20 bg-zinc-800 bg-opacity-60 text-white hover:cursor-default shadow-soft-bottom shadow-zinc-600 "
     >
-      <div className="flex gap-6 items-center">
+      <div className="hidden lg:flex xl:flex 2xl:flex gap-6 items-center">
         <Avatar className="size-14">
           <AvatarImage src="https://avatars.githubusercontent.com/u/88790315?s=400&u=aed260e1a6db4ea2d6136dc7b50e2a49afb6f9d2&v=4" />
           <AvatarFallback>RD</AvatarFallback>
@@ -28,7 +34,7 @@ export function Header({ LanguageTextData, LanguageSwitch }: any) {
       </div>
 
       <div>
-        <ul className="flex h-5 items-center space-x-4 text-sm">
+        <ul className="flex h-5 items-center space-x-1 lg:space-x-4 text-sm md:text-base lg:text-md ">
           <li>
             <a
               onClick={() => scrollToSection('Home')}
@@ -66,8 +72,10 @@ export function Header({ LanguageTextData, LanguageSwitch }: any) {
             </a>
           </li>
           <Separator orientation="vertical" />
-          <Socials />
-          {LanguageSwitch}
+          <div className="hidden lg:block">
+            <Socials />
+          </div>
+          <div className="">{LanguageSwitch}</div>
         </ul>
       </div>
     </nav>
