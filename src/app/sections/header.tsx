@@ -6,7 +6,7 @@ export function Header({ LanguageTextData, LanguageSwitch }: any) {
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId)
     if (section) {
-      if (section.id == 'Skills')
+      if (section.id == 'Skills' || section.id == 'Experiences')
         section.scrollIntoView({
           behavior: 'smooth',
           block: 'start',
