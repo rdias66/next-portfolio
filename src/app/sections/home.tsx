@@ -51,16 +51,18 @@ export function Home({ LanguageTextData }: any) {
 
   return (
     <section id="Home" className="">
-      <div className=" mx-auto px-4 pb-24 mt-64 w-4/6 bg-zinc-800 bg-opacity-50 rounded-2xl ">
-        <div className="flex flex-wrap max-h-96">
+      <div className=" mx-auto px-4 lg:pb-24 mt-32 lg:mt-64 w-5/6 lg:w-4/6 bg-zinc-800 bg-opacity-50 rounded-2xl ">
+        <div className="flex flex-wrap lg:max-h-96">
           <div className="flex flex-col w-full md:w-1/2 px-2 ">
             <div className="h-32 overflow-hidden">
-              <h1 className="text-4xl  max-w-full my-6 text-zinc-100 font-semibold">
+              <h1 className="text-lg lg:text-2xl xl:text-4xl  mx-auto my-6 text-zinc-100 font-semibold">
                 {LanguageTextData.mainText}
-                <span className="wrap text-4xl text-zinc-100 ">{text}</span>
+                <span className="wrap text-lg lg:text-2xl xl:text-4xl text-zinc-100 ">
+                  {text}
+                </span>
               </h1>
             </div>
-            <p className=" text-xl  text-zinc-100">
+            <p className="text-sm  lg:text-lg text-zinc-100">
               {LanguageTextData.introduction}
             </p>
 
@@ -79,8 +81,11 @@ export function Home({ LanguageTextData }: any) {
               </Button>
             </div>
           </div>
-          <div className="ml-16 pl-10">
-            <Lottie className="mb-24" animationData={YogaAnimation} />
+          <div className="mx-auto  md:mt-24 lg:mt-16 xl:mt-12 ">
+            <Lottie
+              className="size-56 md:size-64 lg:size-72 xl:size-80 2xl:size-96"
+              animationData={YogaAnimation}
+            />
           </div>
         </div>
       </div>

@@ -28,7 +28,7 @@ export function Header({ LanguageTextData, LanguageSwitch }: any) {
       </div>
 
       <div>
-        <ul className="flex h-5 items-center space-x-1 lg:space-x-4 text-xs">
+        <ul className="flex h-5 items-center space-x-1 lg:space-x-4 text-sm md:text-base lg:text-md ">
           <li>
             <a
               onClick={() => scrollToSection('Home')}
