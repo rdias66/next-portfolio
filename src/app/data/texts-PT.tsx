@@ -15,9 +15,9 @@ const TextsPT = () => {
     toRotate: [
       'Desenvolvedor Mobile',
       'Desenvolvedor Backend',
-      'Desenvolvedor FrontEnd',
-      'Desenvolvedor Full stack',
-      'Entusiasta DevOps',
+      'Desenvolvedor Frontend',
+      'Desenvolvedor Full Stack',
+      'Desenvolvedor DevOps',
     ],
     isEn: false,
   }

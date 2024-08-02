@@ -17,7 +17,7 @@ const TextsEN = () => {
       'Backend Developer',
       'FrontEnd Developer',
       'Full stack Developer',
-      'DevOps Enthusiast',
+      'DevOps Developer',
     ],
     isEn: true,
   }
