@@ -60,12 +60,22 @@ const TextsEN = () => {
     {
       title: 'DevOps',
       description:
-        'General structure and terraforming for apps using basic AWS features, Supabase and Vercel',
+        'Planning and execution of infrastructure and application deployment, from domain configurations and certificates to continuous code integration ',
+    },
+    {
+      title: 'OpenTofu',
+      description:
+        'Infrastructure as code development for apps(mainly in pair with AWS)',
+    },
+    {
+      title: 'AWS',
+      description:
+        'Configuration of necessary tools for deployment like EC2, RDS, ECR and S3',
     },
     {
       title: 'Docker',
       description:
-        'Direct containerization for development, testing, and deployment with ubuntu desktop and server',
+        'Direct containerization for development, testing, and deployment.',
     },
     {
       title: 'English',
@@ -93,19 +103,26 @@ const TextsEN = () => {
     {
       id: 3,
       category: 'work',
+      year: '4/2024 - ongoing',
+      title: 'Independent Full Stack Developer - Mectatsch',
+      desc: 'Private data control app for a Mechanical Workshop. Full app development and maintenance with Nest, Next and Prisma(postgres RDS), and deployment/ci with OpenTofu, AWS and CircleCI.',
+    },
+    {
+      id: 4,
+      category: 'work',
       year: '1/2024 - ongoing',
       title: 'Mobile Developer - Fit-Experience',
       desc: 'Full app development based on React-Native and Expo.',
     },
     {
-      id: 4,
+      id: 5,
       category: 'work',
       year: '12/2022 - 1/2024',
       title: 'Intern - Copel CSL',
       desc: 'Maintenance digital redirection and data control of electrical equipment.',
     },
     {
-      id: 5,
+      id: 6,
       category: 'work',
       year: '4/2022 - 4/2024',
       title: 'Back-end developer - Andre Sena Fitness Experience',

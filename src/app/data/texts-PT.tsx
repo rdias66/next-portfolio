@@ -60,7 +60,17 @@ const TextsPT = () => {
     {
       title: 'DevOps',
       description:
-        'Estruturação geral e  terraformação para apps usando features básicas de AWS, Supabase e Vercel',
+        'Planejamento e execução de infraestruturas e publicação de aplicativos, desde configurações e certificados de domínio à integração contínua de código ',
+    },
+    {
+      title: 'OpenTofu',
+      description:
+        'Desenvolvimento de infraestrutura como código para deploys(principalmente em conjunto com AWS) ',
+    },
+    {
+      title: 'AWS',
+      description:
+        'Configuração de ferramentas necessárias para deploy como EC2, RDS, ECR e S3',
     },
     {
       title: 'Docker',
@@ -90,23 +100,29 @@ const TextsPT = () => {
       title: 'Engenharia elétrica - UTFPR Ponta Grossa',
       desc: 'Trancado',
     },
-
     {
       id: 3,
+      category: 'work',
+      year: '4/2024 - ongoing',
+      title: 'Desenvolvedor Full Stack Independente - mectatsch.com',
+      desc: 'App de controle de dados privado para uma Oficina Mecanica. Desenvolvimento e manutenção completa do app com Nest, Next e Prisma(postgres RDS), e publicação/ci com OpenTofu, AWS e CircleCI.',
+    },
+    {
+      id: 4,
       category: 'work',
       year: '1/2024 - em andamento',
       title: 'Desenvolvedor Mobile - Fit-Experience',
       desc: 'Desenvolvimento completo baseado em React-Native e Expo',
     },
     {
-      id: 4,
+      id: 5,
       category: 'work',
       year: '12/2022 - 1/2024',
       title: 'Estagiário - Copel CSL',
       desc: 'Redirecionamento digital e controle de dados de manutenção de equipamentos elétricos',
     },
     {
-      id: 5,
+      id: 6,
       category: 'work',
       year: '4/2022 - 4/2024',
       title: 'Desenvolvedor Backend - Andre Sena Fitness Experience',
